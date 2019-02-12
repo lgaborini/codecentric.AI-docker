@@ -1,6 +1,17 @@
 # codecentricAI-docker
 Dockerfile for codecentricAI Bootcamp environment
 
+## The fork
+
+If the official Docker image crashes when importing Keras with this message:
+
+```
+The TensorFlow library was compiled to use AVX instructions, but these aren't available on your machine.
+```
+
+This version uses Tensorflow 1.5.    
+It can be run on machines without AVX instructions.
+
 ## Run from Dockerhub
 
 ### Jupyterlab starten
